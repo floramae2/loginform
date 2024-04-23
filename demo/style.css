@@ -1,0 +1,76 @@
+body {
+    background-color: #282c34; /* Dark blue-grey */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    background-color: #fff; /* White */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #00ffff;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff; /* White */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #00ffff; 
+    border-radius: 5px;
+    background-color: #282c34; /* Dark blue-grey */
+    color: #fff; /* White */
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #00ffff;
+    color: #030000; /* White */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    margin-top: 20px;
+
+}
+
+button[type="submit"]:hover {
+    background-color:#ffd300; 
+    width: 50%;
+    margin-top: 20px;
+    
+}
+
+.error {
+    color: #ff6b6b; /* Red */
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+a {
+    color:#008b8b;/*Dark cyan*/
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
